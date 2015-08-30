@@ -1,4 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
+	
 	You use the git init command to create a repository which adds a .git folder 
 	that holds the metadata for the history and rivision on all the tracked files 
 	in your repository.
+	
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+	The working directory is all the files in the folder where you ran the init 
+	command.  The repository contains all the files you told Git to add to it and 
+	log the change and revision history.  The working directory is where you place 
+	files to be added from the the first to the repository.  I think the staging 
+	area is pointless.  Anything that needs to be done in relation to the working 
+	directory and staging area could be done with the working directory and the 
+	last commit.
+	
+How can you use the staging area to make sure you have one commit per logical 
+change?
+
+	Use the git diff --staged command to verify the changes between the staging 
+	area about to be commit and the last commit.
+	
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+	When trying to implement new features to an existing program that still needs 
+	to function.  Like a beta environment where the changes, after being tested 
+	get pushed to the main project.
