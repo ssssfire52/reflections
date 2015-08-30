@@ -27,3 +27,16 @@ organized? How would branches help?
 	When trying to implement new features to an existing program that still needs 
 	to function.  Like a beta environment where the changes, after being tested 
 	get pushed to the main project.
+	
+How do the diagrams help you visualize the branch structure?
+
+	You can see where each commit thinks it parent is, which can show you if their 
+	are unreachable commits.  It would also help with mapping out how you want 
+	to organize a large project with many branchs that will needed to get merged 
+	later on.
+	
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+	The combine changes from two separte branches.  The diagram show the two 
+	branches leading to a new commit since this is what happened.
