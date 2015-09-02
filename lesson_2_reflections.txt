@@ -40,3 +40,12 @@ the diagram the way we do?
 
 	The combine changes from two separte branches.  The diagram show the two 
 	branches leading to a new commit since this is what happened.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+	Doing merges where nothing conflicts manually takes a lot longer, however it 
+	is safer.  If you write a function that uses a previous piece of code on the 
+	other end of the program and that piece of code that was being refered to 
+	changes from someone else the program will break.  However most of the time 
+	this won't play an effect and the auto merge saves time.
