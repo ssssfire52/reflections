@@ -1,4 +1,43 @@
 When would you want to use a remote repository rather than keeping all your work 
 local?
+	
 	When you are working on a group where more than one person needs access to 
 	the project at te same time.
+	
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+	Clones make a copy of a repository from any place to another.  Forks are 
+	specific clones that make a cop from GitHub to GitHub.  Branches are like 
+	cloning in the repository.  The clone can be used to start something completly 
+	different using someones work as a spring board.  A fork is used when you want 
+	to work on the same project someone else is, but take it a slightly different 
+	direction and they still want their version.
+
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+	If you are writing code based on other code in the project it is very helpful 
+	to have the lasest version of the code you're basing your new code off of.  
+	If you use that something that isn't there anymore it will be more work for 
+	you when it comes time to merge.
+	
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+	Withour GitHub you would need to email files back and forth or use some other 
+	file sharing approach.  This would make things harder especially the more 
+	people are working on the project.  Also most other file sharing platforms 
+	are made for coding and the options for merging files would be more limited.
+	
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+	On a working project you want to let everyone know what you're planning on 
+	doing with the code before you do it.  By creating a separte branch you can 
+	share with other the work you've done without changing the main project that 
+	everyone expects to remain unchanged unless someone lets them know it's going 
+	to be changed.  This makes it so others can check and critique your work to 
+	iron out things you might have missed before you force your changes on everyone 
+	else.
+
